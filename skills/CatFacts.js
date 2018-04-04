@@ -12,7 +12,7 @@ request({
 
     if (!error && response.statusCode === 200) {
         //console.log(body) // Print the json response
-        bot.reply(message,body.facts[0]+ ':smile_cat:');
+        bot.reply(message,body.fact + ':smile_cat:');
     }
 })
 
